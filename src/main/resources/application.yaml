@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: project
+  ai:
+    model:
+      chat:
+        model: openai
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        model: gpt-5-mini
